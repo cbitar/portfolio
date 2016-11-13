@@ -127,12 +127,9 @@ h2 {
 }
 
 #whitespace {
-  height: 20vh;
+  height: 17vh;
 }
 
-#contact {
-  height: 78vh;
-}
 
 #contactgh {
   font-size: 60px;
@@ -143,8 +140,8 @@ h2 {
 }
 
 #linkedin {
-  width: 7.1%;
-  margin-top: -4.1%;
+  width: 8.8%;
+  margin-top: -4.6%;
   margin-left: 50px;
   padding: 7px;
 }
@@ -152,6 +149,7 @@ h2 {
 .glyphicon-envelope {
   font-size: 57px;
   margin-left: 50px;
+  color: black;
 }
 
 #graphic {
@@ -165,19 +163,6 @@ h2 {
     margin-left: -31px;
 }
 
-/*.img-thumbnail {
-    display: inline-block;
-    max-width: 35%;
-    height: auto;
-    padding: 4px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}*/
 
  @media only screen and (max-width:1200px) {
   .img-circle {
