@@ -1,0 +1,269 @@
+@import "compass/css3";
+@import "bourbon";
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+i {
+/*  padding: 20px;*/
+}
+
+img {
+  max-width: 103%;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+/*  background-color: lightblue;*/
+}
+
+.navbar {
+  color: white;
+  background: rgba(255, 13, 13, 0.5); /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+/*  background: -webkit-linear-gradient(left,rgba(255, 13, 13, 0.5),rgba(255, 138, 0, 0.5),rgba(255, 244, 23, 0.5),rgba(38, 147, 0, 0.5),rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+
+  background: -o-linear-gradient(left,rgba(255, 13, 13, 0.5),rgba(255, 138, 0, 0.5),rgba(255, 244, 23, 0.5),rgba(38, 147, 0, 0.5),rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+
+  background: -moz-linear-gradient(left,rgba(255, 13, 13, 0.5),rgba(255, 138, 0, 0.5),rgba(255, 244, 23, 0.5),rgba(38, 147, 0, 0.5),rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+
+  background: linear-gradient(to right, rgba(255, 13, 13, 0.5),rgba(255, 138, 0, 0.5),rgba(255, 244, 23, 0.5),rgba(38, 147, 0, 0.5),rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5)); */
+
+  background: -webkit-linear-gradient(left,rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+
+  background: -o-linear-gradient(left,rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+
+  background: -moz-linear-gradient(left,rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+
+  background: linear-gradient(to right, rgba(19, 0, 222, 0.5),rgba(59, 0, 155, 0.5),rgba(183, 86, 202, 0.5));
+  transition-duration: 1s;
+
+}
+
+.navbar-brand {
+  border: 1px solid black;
+  color: blue;
+}
+
+.navbar-default .navbar-brand {
+    color: #f5ecec;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f5ecec;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("public/images/la.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-circle {
+/*  width: 30%;*/
+  margin-left:39%;
+  padding: 20px;
+  margin-top: 29px;
+
+ /* margin: .25em 0 .4em;*/
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  display: block;
+  font-family: "Circular", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3.8em;
+}
+
+.img-port {
+/*  width: 30%;*/
+  display: inline-block;
+
+}
+
+.tecskills {
+  display:inline-block;
+  padding: 50px;
+}
+
+h2 {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#skills {
+/*  background-color: lightblue;*/
+}
+
+.name {
+  font-size: 45px;
+}
+
+.intro-text {
+  font-size: 20px;
+  padding: 10%;
+  text-align: center;
+}
+
+.icons {
+  width: 60%;
+  font-size: 70px;
+  margin-left: 20%;
+}
+
+.hbmoe {
+  margin-left: 0px;
+  display: inline-block;
+}
+
+#whitespace {
+  height: 20vh;
+}
+
+#contact {
+  height: 78vh;
+}
+
+#contactgh {
+  font-size: 60px;
+}
+
+#smpace {
+  height: 10vh;
+}
+
+#linkedin {
+  width: 7.1%;
+  margin-top: -4.1%;
+  margin-left: 50px;
+  padding: 7px;
+}
+
+.glyphicon-envelope {
+  font-size: 57px;
+  margin-left: 50px;
+}
+
+#graphic {
+  background-image:
+   linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+   background: url("public/images/la.jpg");
+    width: 107%;
+    margin-left: -31px;
+}
+
+/*.img-thumbnail {
+    display: inline-block;
+    max-width: 35%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}*/
+
+ @media only screen and (max-width:1200px) {
+  .img-circle {
+  /*  width: 30%;*/
+    margin-left:36%;
+    padding: 20px;
+    margin-top: 29px;
+
+   /* margin: .25em 0 .4em;*/
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    display: block;
+    font-family: "Circular", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.8em;
+  }
+
+ }
+ @media only screen and (max-width:1000px) {
+  .img-circle {
+  /*  width: 30%;*/
+    margin-left:32%;
+    padding: 20px;
+    margin-top: 29px;
+
+   /* margin: .25em 0 .4em;*/
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    display: block;
+    font-family: "Circular", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.8em;
+  }
+
+ }
+ @media only screen and (max-width:750px) {
+  .img-circle {
+  /*  width: 30%;*/
+    margin-left:30%;
+    padding: 20px;
+    margin-top: 29px;
+
+   /* margin: .25em 0 .4em;*/
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    display: block;
+    font-family: "Circular", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.8em;
+  }
+
+ }
+ @media only screen and (max-width:650px) {
+  .img-circle {
+  /*  width: 30%;*/
+    margin-left:28%;
+    padding: 20px;
+    margin-top: 29px;
+
+   /* margin: .25em 0 .4em;*/
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    display: block;
+    font-family: "Circular", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.8em;
+  }
+
+ }
